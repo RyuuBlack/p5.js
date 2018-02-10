@@ -1,0 +1,124 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: helvetica;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  -webkit-transition: background-color .5s;
+}
+
+article{
+
+}
+
+footer{
+
+}
+
+nav{
+  display: table;
+  margin: auto;
+  margin-top: 15px;
+  height: 40px;
+  -webkit-transition: margin-left .5s;
+}
+
+ul{
+  display: block;
+  float: left;
+  list-style: none;
+}
+
+ul li{
+  float: left;
+   margin: 10px;
+   padding: 2px;
+}
+
+ul a{
+  color: #F3F3F3;
+  text-decoration: none;
+}
+
+img#logo{
+  float: left;
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 150px;
+  -webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+}
+
+#banner{
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-image: url(../images/mainBG.jpg);
+  background-size: cover;
+  background-attachment: contain;
+  background-position: center 0px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
+#intro{
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background-color: green;
+}
+
+
+#cubeWave{
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background-color: red;
+}
+
+#fractal{
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}
+
+
+/* p:first-letter{
+  font-family:Beaufort for LOL Medium,Arial,sans-serif;
+  font-weight:400;
+  border-bottom:3px solid #937341;
+  float:left;
+  font-size:44px;
+  line-height:1.2;
+  margin:-2px 20px 0 18px;
+  padding:0 8px 0 10px
+} */
+
+
+/* @media (min-width:768px){
+  .description__1-6:first-letter{
+    font-family:Beaufort for LOL Medium,Arial,sans-serif;
+    font-weight:400;
+    border-bottom:3px solid #937341;
+    float:left;
+    font-size:44px;
+    line-height:46px;
+    margin:-2px 25px 0 0;
+    padding:0 10px
+  }
+}
+
+.description__1-6>p{
+  padding-bottom:20px
+}
+
+.description__1-6>p:last-child{
+  padding-bottom:0
+} */
